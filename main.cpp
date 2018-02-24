@@ -8,9 +8,8 @@ int main()
 {
   string list[5]; //array of 5 strings
   int numItems = 0;
-  char input;
-        
-  for ( int i = 0; i != 1; i++ ) {
+  char input;      
+  for ( int i = 0; i > -1; i++ ) {
                 
      cout<<"\n==GROCERY LIST MANAGER==";
      cout<<"\nEnter your choice: ";
@@ -18,11 +17,11 @@ int main()
      cout<<"\n (Q)uit";
      cout<<"\nYour choice (A/Q): ";
      cin>>input;
-     if ( input != 'q'|| input != 'Q' ) {
-         i--;
+     if ( input == 'q' || input == 'Q' ) {
+         i = -6;
      }
-     if ( input == 'a' || input == 'A' ){
-       if ( numItems < 4 ) {
+     if ( input == 'a' || input == 'A' ) {
+       if ( numItems < 5 ) {
           cout<<"\nWhat is the item?";
           cin>>list[numItems];
           numItems++;

@@ -21,8 +21,8 @@ int main()
          i = -6;
      }
      if ( input == 'a' || input == 'A' ) {
+       cout<<"What is the item?";
        if ( numItems < 5 ) {
-          cout<<"What is the item?";
           cin>>list[numItems];
           numItems++;
        } else { 

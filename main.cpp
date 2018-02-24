@@ -18,7 +18,7 @@ int main()
      cout<<"\n (Q)uit";
      cout<<"\nYour choice (A/Q): ";
      cin>>input;
-     if ( input != 'q' ) {
+     if ( input != 'q'|| input != 'Q' ) {
          i--;
      }
      if ( input == 'a' || input == 'A' ){

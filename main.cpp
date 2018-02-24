@@ -26,7 +26,7 @@ int main()
           cin>>list[numItems];
           numItems++;
        } else { 
-          cout<<"You'll need a bigger list!\n\n\n\n";                                                                                }
+          cout<<"You'll need a bigger list!";                                                                                }
      }
   }   
   return 0;                                                                                                   

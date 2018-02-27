@@ -26,8 +26,16 @@ int main()
           cin>>list[numItems];
           numItems++;
        } else { 
-          cout<<"You'll need a bigger list!";                                                                                }
+          cout<<"You'll need a bigger list!"<<endl;                                          }
      }
-  }   
+  }
+
+  cout<<"==ITEMS TO BUY=="<<endl;
+
+  for ( int i = 0; i < 5; i++ ) {
+
+    cout<< i + 1 <<" "<<list[i]<<endl;
+
+  }
   return 0;                                                                                                   
 }

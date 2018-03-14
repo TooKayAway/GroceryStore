@@ -27,9 +27,8 @@ int main()
        list.push_back(add);
      }
   }
-  cout<<"==ITEMS TO BUY=="<<endl;
   if ( list.size() != 0 ) {
-
+     cout<<"==ITEMS TO BUY=="<<endl;
      for ( int i = 0; i < list.size(); i++ ) {
 
          cout<< i + 1 <<" "<<list[i]<<endl;
